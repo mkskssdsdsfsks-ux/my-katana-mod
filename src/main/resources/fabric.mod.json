@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "my-katana-mod",
+  "version": "0.1.0",
+  "name": "My Katana Mod",
+  "description": "Мод с катанами и ключами-мечами для Minecraft Fabric 1.21.4",
+  "authors": ["mkskssdsdsfsks-ux"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/my-katana-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mykatanmod.MyKatanaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
